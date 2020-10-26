@@ -1,5 +1,8 @@
-/target/
+HELP.md
+target/
 !.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
@@ -15,20 +18,16 @@
 *.iws
 *.iml
 *.ipr
-*.class
 
 ### NetBeans ###
 /nbproject/private/
-/build/
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/.mvn\
-eureka_server.iml
-springcloud.iml
-hello_world.iml
-mvnw.cmd
-mvnw
-.mvn\
-mvnw
-mvnw.cmd
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
