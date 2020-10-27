@@ -6,39 +6,95 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sleuth" />
+        <module name="feign_consumer" />
+        <module name="turbine" />
+        <module name="gateway" />
+        <module name="service_provider" />
+        <module name="ribbon_hi_service_b" />
+        <module name="ribbon_hi_service_a" />
+        <module name="ribbon_consumer" />
+        <module name="feign" />
         <module name="service_discovery" />
+        <module name="bus" />
         <module name="eureka_server" />
+        <module name="register" />
+        <module name="hystrix_ribbon" />
+        <module name="ribbon_eureka_server" />
+        <module name="zuul" />
+        <module name="feign_hi_service_b" />
+        <module name="config" />
+        <module name="dashboard" />
         <module name="service_consumer" />
         <module name="hi_server" />
-        <module name="register" />
-        <module name="service_provider" />
+        <module name="feign_eureka_server" />
+        <module name="hystrix_feign" />
+        <module name="feign_hi_service_a" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bus" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="dashboard" target="1.8" />
       <module name="eureka_replication" target="1.8" />
       <module name="eureka_server" target="1.8" />
+      <module name="feign" target="1.8" />
+      <module name="feign_consumer" target="1.8" />
+      <module name="feign_eureka_server" target="1.8" />
+      <module name="feign_hi_service_a" target="1.8" />
+      <module name="feign_hi_service_b" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="hello_world" target="1.8" />
       <module name="helloworld" target="1.8" />
       <module name="hi_server" target="1.8" />
+      <module name="hystrix_feign" target="1.8" />
+      <module name="hystrix_ribbon" target="1.8" />
       <module name="parent" target="1.8" />
       <module name="register" target="1.8" />
+      <module name="ribbon" target="1.8" />
+      <module name="ribbon_consumer" target="1.8" />
+      <module name="ribbon_eureka_server" target="1.8" />
+      <module name="ribbon_hi_service_a" target="1.8" />
+      <module name="ribbon_hi_service_b" target="1.8" />
       <module name="service_consumer" target="1.8" />
       <module name="service_discovery" target="1.8" />
       <module name="service_provider" target="1.8" />
+      <module name="sleuth" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="turbine" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bus" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="dashboard" options="-parameters" />
       <module name="eureka_replication" options="" />
       <module name="eureka_server" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="feign_consumer" options="-parameters" />
+      <module name="feign_eureka_server" options="-parameters" />
+      <module name="feign_hi_service_a" options="-parameters" />
+      <module name="feign_hi_service_b" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="hello_world" options="" />
       <module name="helloworld" options="" />
       <module name="hi_server" options="-parameters" />
+      <module name="hystrix_feign" options="-parameters" />
+      <module name="hystrix_ribbon" options="-parameters" />
       <module name="parent" options="" />
+      <module name="ribbon" options="" />
+      <module name="ribbon_consumer" options="-parameters" />
+      <module name="ribbon_eureka_server" options="-parameters" />
+      <module name="ribbon_hi_service_a" options="-parameters" />
+      <module name="ribbon_hi_service_b" options="-parameters" />
       <module name="service_consumer" options="-parameters" />
       <module name="service_discovery" options="-parameters" />
       <module name="service_provider" options="-parameters" />
+      <module name="sleuth" options="-parameters" />
+      <module name="turbine" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

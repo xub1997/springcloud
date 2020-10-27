@@ -21,6 +21,17 @@
     <modules>
         <module>hello_world</module>
         <module>eureka_replication</module>
+        <module>ribbon</module>
+        <module>feign</module>
+        <module>hystrix_ribbon</module>
+        <module>hystrix_feign</module>
+        <module>zuul</module>
+        <module>gateway</module>
+        <module>config</module>
+        <module>bus</module>
+        <module>sleuth</module>
+        <module>dashboard</module>
+        <module>turbine</module>
     </modules>
 
 

@@ -2,14 +2,32 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_replication" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_replication/eureka_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_replication/hi_server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eureka_replication/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign/feign_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign/feign_eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign/feign_hi_service_a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign/feign_hi_service_b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello_world" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello_world/service_consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello_world/service_discovery" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello_world/service_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix_ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon/ribbon_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon/ribbon_eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon/ribbon_hi_service_a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon/ribbon_hi_service_b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
