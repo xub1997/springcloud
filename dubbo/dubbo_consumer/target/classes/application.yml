@@ -1,0 +1,22 @@
+dubbo:
+  application:
+    name:  dubbo-provider
+  registry:
+    # 读者请换成自己的zookeeperip
+    address: 192.168.135.128:2181
+    protocol: zookeeper
+    check: false
+  monitor:
+    protocol: register
+  protocol:
+    name: dubbo
+    port: 30004
+  consumer:
+    timeout: 3000
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: dubbo-provider

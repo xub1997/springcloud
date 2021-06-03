@@ -11,5 +11,11 @@
 
     <artifactId>hystrix_feign</artifactId>
 
+    <modules>
+        <module>hystrix_feign_eureka_server</module>
+        <module>hystrix_feign_consumer</module>
+        <module>hystrix_feign_hi_service_a</module>
+        <module>hystrix_feign_hi_service_b</module>
+    </modules>
 
 </project>
