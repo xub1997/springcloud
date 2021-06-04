@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ribbon-consumer
+    name: feign-consumer
 eureka:
   client:
     service-url:

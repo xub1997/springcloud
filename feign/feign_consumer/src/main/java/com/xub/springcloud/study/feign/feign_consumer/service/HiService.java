@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(value = "RIBBON-HI-SERVICE")
+@FeignClient(value = "feign-hi-service")
 public interface HiService {
 
     @GetMapping("/hi/{name}")

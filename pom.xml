@@ -32,6 +32,7 @@
         <module>sleuth</module>
         <module>dashboard</module>
         <module>turbine</module>
+        <module>eureka_security</module>
     </modules>
 
 

@@ -20,7 +20,7 @@ public class HelloServiceController {
      */
     @RequestMapping(value = "/{name}", method = RequestMethod.GET)
     public String hello(@PathVariable String name){
-        return "Hello, " + name + "!";
+        return helloService.hello(name);
     }
 
 }

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ribbon_eureka_server
+    name: ribbon-eureka-server
 
 eureka:
   instance:

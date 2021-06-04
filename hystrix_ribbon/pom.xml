@@ -11,5 +11,12 @@
 
     <artifactId>hystrix_ribbon</artifactId>
 
+    <modules>
+        <module>hystrix_ribbon_eureka_server</module>
+        <module>hystrix_ribbon_consumer</module>
+        <module>hystrix_ribbon_hi_service_a</module>
+        <module>hystrix_ribbon_hi_service_b</module>
+    </modules>
+
 
 </project>
