@@ -3,6 +3,8 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bus/bus_config_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bus/bus_config_server_instance" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_server/config_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config_server/config_server_instance" charset="UTF-8" />

@@ -20,10 +20,10 @@
         <module name="dubbo_consumer" />
         <module name="config_replication_client" />
         <module name="config_server_instance" />
-        <module name="hystrix_feign_eureka_server" />
         <module name="zuul_ribbon_consumer" />
         <module name="feign_eureka_server" />
         <module name="hystrix_feign_consumer" />
+        <module name="bus_config_server_instance" />
         <module name="hystrix_feign_hi_service_b" />
         <module name="service_provider" />
         <module name="hystrix_ribbon_eureka_server" />
@@ -43,6 +43,7 @@
         <module name="zuul_service" />
         <module name="config_server_replication_instance_b" />
         <module name="dashboard" />
+        <module name="bus_config_client" />
         <module name="hi_server" />
         <module name="eureka_client_security" />
         <module name="hystrix_feign" />
@@ -56,9 +57,17 @@
         <module name="hystrix_feign_hi_service_a" />
         <module name="eureka_replication" />
       </profile>
+      <profile name="Annotation profile for Parent Pom" enabled="true">
+        <sourceOutputDir name="../../config_server_replication/config_eureka_server/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../config_server_replication/config_eureka_server/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hystrix_feign_eureka_server" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bus" target="1.8" />
+      <module name="bus_config_client" target="1.8" />
+      <module name="bus_config_server_instance" target="1.8" />
       <module name="config_client" target="1.8" />
       <module name="config_eureka_server" target="1.8" />
       <module name="config_replication_client" target="1.8" />
@@ -121,6 +130,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bus" options="-parameters" />
+      <module name="bus_config_client" options="-parameters" />
+      <module name="bus_config_server_instance" options="-parameters" />
       <module name="config_client" options="-parameters" />
       <module name="config_eureka_server" options="-parameters" />
       <module name="config_replication_client" options="-parameters" />

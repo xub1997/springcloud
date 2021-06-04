@@ -19,22 +19,22 @@
     </parent>
 
     <modules>
-        <module>dubbo</module>
         <module>hello_world</module>
         <module>eureka_replication</module>
+        <module>eureka_security</module>
         <module>ribbon</module>
         <module>feign</module>
         <module>hystrix_ribbon</module>
         <module>hystrix_feign</module>
         <module>zuul</module>
-        <module>gateway</module>
         <module>config_server</module>
+        <module>config_server_replication</module>
         <module>bus</module>
+        <module>gateway</module>
         <module>sleuth</module>
         <module>dashboard</module>
         <module>turbine</module>
-        <module>eureka_security</module>
-        <module>config_server_replication</module>
+        <module>dubbo</module>
     </modules>
 
 

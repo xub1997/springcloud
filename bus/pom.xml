@@ -11,5 +11,9 @@
 
     <artifactId>bus</artifactId>
 
+    <modules>
+        <module>bus_config_client</module>
+        <module>bus_config_server_instance</module>
+    </modules>
 
 </project>
