@@ -9,7 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>config</artifactId>
+    <artifactId>config_server_replication</artifactId>
+
+    <modules>
+        <module>config_eureka_server</module>
+        <module>config_replication_client</module>
+        <module>config_server_replication_instance_a</module>
+        <module>config_server_replication_instance_b</module>
+    </modules>
 
 
 </project>

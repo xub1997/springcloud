@@ -3,8 +3,19 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bus" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server/config_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server/config_server_instance" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server_replication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server_replication/config_eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server_replication/config_replication_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server_replication/config_server_replication_instance_a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config_server_replication/config_server_replication_instance_b" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/dubbo_provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_replication" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_replication/eureka_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka_replication/hi_server" charset="UTF-8" />
