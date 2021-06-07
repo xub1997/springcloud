@@ -9,53 +9,51 @@
         <module name="dubbo_provider" />
         <module name="ribbon_eureka_server" />
         <module name="ribbon_consumer" />
-        <module name="turbine" />
+        <module name="dubbo_api" />
         <module name="config_server_replication_instance_a" />
-        <module name="hystrix_ribbon" />
-        <module name="config_server_replication" />
+        <module name="eureka_client_security" />
         <module name="hystrix_ribbon_consumer" />
         <module name="config_eureka_server" />
         <module name="service_consumer" />
-        <module name="zuul_hi_service" />
-        <module name="dubbo_consumer" />
+        <module name="gateway" />
         <module name="config_replication_client" />
         <module name="config_server_instance" />
         <module name="zuul_ribbon_consumer" />
         <module name="feign_eureka_server" />
         <module name="hystrix_feign_consumer" />
         <module name="bus_config_server_instance" />
-        <module name="hystrix_feign_hi_service_b" />
+        <module name="sleuth_dashboard_eureka_server" />
         <module name="service_provider" />
+        <module name="turbine_service_a" />
         <module name="hystrix_ribbon_eureka_server" />
-        <module name="hystrix_ribbon_hi_service_b" />
-        <module name="dubbo_api" />
-        <module name="feign" />
-        <module name="bus" />
+        <module name="zuul_feign_consumer" />
         <module name="feign_hi_service_b" />
         <module name="feign_hi_service_a" />
-        <module name="sleuth" />
+        <module name="service_discovery" />
         <module name="config_client" />
-        <module name="zuul_feign_consumer" />
-        <module name="ribbon" />
+        <module name="zuul_hi_service" />
+        <module name="hystrix_ribbon_hi_service_b" />
         <module name="hystrix_ribbon_hi_service_a" />
         <module name="ribbon_hi_service_b" />
         <module name="ribbon_hi_service_a" />
         <module name="zuul_service" />
         <module name="config_server_replication_instance_b" />
-        <module name="dashboard" />
-        <module name="bus_config_client" />
+        <module name="sleuth_dashboard_instance" />
+        <module name="sleuth_service_b" />
+        <module name="sleuth_service_a" />
+        <module name="turbine_instance" />
         <module name="hi_server" />
-        <module name="eureka_client_security" />
-        <module name="hystrix_feign" />
+        <module name="dubbo_consumer" />
+        <module name="turbine_eureka_server" />
         <module name="feign_consumer" />
         <module name="eureka_server" />
         <module name="zuul_eureka_server" />
-        <module name="gateway" />
+        <module name="bus_config_client" />
         <module name="eureka_server_security" />
         <module name="register" />
-        <module name="service_discovery" />
+        <module name="hystrix_feign_hi_service_b" />
         <module name="hystrix_feign_hi_service_a" />
-        <module name="eureka_replication" />
+        <module name="turbine_service_b" />
       </profile>
       <profile name="Annotation profile for Parent Pom" enabled="true">
         <sourceOutputDir name="../../config_server_replication/config_eureka_server/target/generated-sources/annotations" />
@@ -76,7 +74,6 @@
       <module name="config_server_replication" target="1.8" />
       <module name="config_server_replication_instance_a" target="1.8" />
       <module name="config_server_replication_instance_b" target="1.8" />
-      <module name="dashboard" target="1.8" />
       <module name="dubbo" target="1.8" />
       <module name="dubbo_api" target="1.8" />
       <module name="dubbo_consumer" target="1.8" />
@@ -116,8 +113,18 @@
       <module name="service_discovery" target="1.8" />
       <module name="service_provider" target="1.8" />
       <module name="sleuth" target="1.8" />
+      <module name="sleuth_dashboard" target="1.8" />
+      <module name="sleuth_dashboard_eureka_server" target="1.8" />
+      <module name="sleuth_dashboard_instance" target="1.8" />
+      <module name="sleuth_service_a" target="1.8" />
+      <module name="sleuth_service_b" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="turbine" target="1.8" />
+      <module name="turbine_eureka_server" target="1.8" />
+      <module name="turbine_instance" target="1.8" />
+      <module name="turbine_service_a" target="1.8" />
+      <module name="turbine_service_b" target="1.8" />
+      <module name="zipkin" target="1.8" />
       <module name="zuul" target="1.8" />
       <module name="zuul_eureka_server" target="1.8" />
       <module name="zuul_feign" target="1.8" />
@@ -129,7 +136,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bus" options="-parameters" />
+      <module name="bus" options="" />
       <module name="bus_config_client" options="-parameters" />
       <module name="bus_config_server_instance" options="-parameters" />
       <module name="config_client" options="-parameters" />
@@ -137,19 +144,18 @@
       <module name="config_replication_client" options="-parameters" />
       <module name="config_server" options="" />
       <module name="config_server_instance" options="-parameters" />
-      <module name="config_server_replication" options="-parameters" />
+      <module name="config_server_replication" options="" />
       <module name="config_server_replication_instance_a" options="-parameters" />
       <module name="config_server_replication_instance_b" options="-parameters" />
-      <module name="dashboard" options="-parameters" />
       <module name="dubbo_api" options="-parameters" />
       <module name="dubbo_consumer" options="-parameters" />
       <module name="dubbo_provider" options="-parameters" />
       <module name="eureka_client_security" options="-parameters" />
-      <module name="eureka_replication" options="-parameters" />
+      <module name="eureka_replication" options="" />
       <module name="eureka_security" options="" />
       <module name="eureka_server" options="-parameters" />
       <module name="eureka_server_security" options="-parameters" />
-      <module name="feign" options="-parameters" />
+      <module name="feign" options="" />
       <module name="feign_consumer" options="-parameters" />
       <module name="feign_eureka_server" options="-parameters" />
       <module name="feign_hi_service_a" options="-parameters" />
@@ -158,18 +164,18 @@
       <module name="hello_world" options="" />
       <module name="helloworld" options="" />
       <module name="hi_server" options="-parameters" />
-      <module name="hystrix_feign" options="-parameters" />
+      <module name="hystrix_feign" options="" />
       <module name="hystrix_feign_consumer" options="-parameters" />
       <module name="hystrix_feign_eureka_server" options="-parameters" />
       <module name="hystrix_feign_hi_service_a" options="-parameters" />
       <module name="hystrix_feign_hi_service_b" options="-parameters" />
-      <module name="hystrix_ribbon" options="-parameters" />
+      <module name="hystrix_ribbon" options="" />
       <module name="hystrix_ribbon_consumer" options="-parameters" />
       <module name="hystrix_ribbon_eureka_server" options="-parameters" />
       <module name="hystrix_ribbon_hi_service_a" options="-parameters" />
       <module name="hystrix_ribbon_hi_service_b" options="-parameters" />
       <module name="parent" options="" />
-      <module name="ribbon" options="-parameters" />
+      <module name="ribbon" options="" />
       <module name="ribbon_consumer" options="-parameters" />
       <module name="ribbon_eureka_server" options="-parameters" />
       <module name="ribbon_hi_service_a" options="-parameters" />
@@ -177,8 +183,17 @@
       <module name="service_consumer" options="-parameters" />
       <module name="service_discovery" options="-parameters" />
       <module name="service_provider" options="-parameters" />
-      <module name="sleuth" options="-parameters" />
-      <module name="turbine" options="-parameters" />
+      <module name="sleuth" options="" />
+      <module name="sleuth_dashboard" options="" />
+      <module name="sleuth_dashboard_eureka_server" options="-parameters" />
+      <module name="sleuth_dashboard_instance" options="-parameters" />
+      <module name="sleuth_service_a" options="-parameters" />
+      <module name="sleuth_service_b" options="-parameters" />
+      <module name="turbine" options="" />
+      <module name="turbine_eureka_server" options="-parameters" />
+      <module name="turbine_instance" options="-parameters" />
+      <module name="turbine_service_a" options="-parameters" />
+      <module name="turbine_service_b" options="-parameters" />
       <module name="zuul" options="" />
       <module name="zuul_eureka_server" options="-parameters" />
       <module name="zuul_feign" options="-parameters" />

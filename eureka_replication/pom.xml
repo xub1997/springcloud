@@ -13,6 +13,7 @@
 
     <name>eureka_replication</name>
     <description>注册中心高可用（多副本）</description>
+    <packaging>pom</packaging>
 
     <modules>
         <module>eureka_server</module>

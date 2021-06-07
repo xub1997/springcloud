@@ -30,9 +30,9 @@
         <module>config_server</module>
         <module>config_server_replication</module>
         <module>bus</module>
-        <module>gateway</module>
         <module>sleuth</module>
-        <module>dashboard</module>
+        <module>sleuth_dashboard</module>
+        <module>gateway</module>
         <module>turbine</module>
         <module>dubbo</module>
     </modules>

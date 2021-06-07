@@ -24,9 +24,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/.mvn\
-eureka_server.iml
-springcloud.iml
-hello_world.iml
 mvnw.cmd
 mvnw
 .mvn\
