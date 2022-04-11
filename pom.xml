@@ -35,6 +35,7 @@
         <module>gateway</module>
         <module>turbine</module>
         <module>dubbo</module>
+        <module>nacos_ribbon</module>
     </modules>
 
 
