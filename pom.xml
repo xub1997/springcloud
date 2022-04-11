@@ -36,6 +36,7 @@
         <module>turbine</module>
         <module>dubbo</module>
         <module>nacos_ribbon</module>
+        <module>nacos_feign</module>
     </modules>
 
 
