@@ -2,7 +2,7 @@ dubbo:
   application:
     name:  dubbo-provider
   registry:
-    # 读者请换成自己的zookeeperip
+    # 读者请换成自己的zookeeper_ip
     address: 192.168.135.128:2181
     protocol: zookeeper
     check: false
