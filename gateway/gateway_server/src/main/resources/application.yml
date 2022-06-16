@@ -1,0 +1,36 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          # 开启通过服务中心的自动根据 serviceId 创建路由的功能
+          enabled: false
+          # 服务名小写, 关闭大写
+          lowerCaseServiceId: true
+      routes:
+      - id: gateway-hi-service-a
+        uri: lb://GATEWAY-HI-SERVICE-A
+        predicates:
+          - Path=/a/**
+        filters:
+          - StripPrefix=1
+      - id: gateway-hi-service-b
+        uri: lb://GATEWAY-HI-SERVICE-B
+        predicates:
+          - Path=/b/**
+        filters:
+          - StripPrefix=1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    org.springframework.cloud.gateway: debug

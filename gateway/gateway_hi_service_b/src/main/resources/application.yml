@@ -1,0 +1,10 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: gateway-hi-service-b
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

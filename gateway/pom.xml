@@ -11,5 +11,12 @@
 
     <artifactId>gateway</artifactId>
 
+    <modules>
+        <module>gateway_server</module>
+        <module>gateway_eureka_server</module>
+        <module>gateway_hi_service_a</module>
+        <module>gateway_hi_service_b</module>
+    </modules>
+
 
 </project>
